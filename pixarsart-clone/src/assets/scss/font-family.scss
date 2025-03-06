@@ -1,0 +1,18 @@
+@import 'variables';
+$global-font-style: "Kanit", Sans-serif;
+.global-font{
+    font-size: $global-font-style;
+}
+
+.h1{
+    font-size: $h1-f-s;
+}
+.h2{
+    font-size: $h2-f-s;
+}
+.h3{
+    font-size: $h3-f-s;
+}
+.p{
+    font-size: $p-f-s;
+}

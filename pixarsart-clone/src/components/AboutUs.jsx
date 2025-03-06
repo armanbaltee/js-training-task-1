@@ -4,22 +4,17 @@ import { ArrowUpRight } from "lucide-react";
 const AboutUs = () => {
   return (
     <div className="bg-black text-white py-16 px-8 md:px-20 relative pb-20">
-      {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-800 opacity-80"></div>
 
-      {/* Content Container */}
       <div className="relative max-w-5xl mx-auto">
-        {/* Heading */}
         <h2 className="text-5xl font-bold mb-6 text-white">Who we are?</h2>
 
-        {/* Description */}
         <p className="text-gray-300 text-lg mb-6 leading-relaxed">
           You get to work with some of the most talented web developers,
           designers, creative thinkers, and innovators in our team. Website
           designing and development catered just for you.
         </p>
 
-        {/* Grid Layout for Text Sections */}
         <div className="grid md:grid-cols-2 gap-10">
           <p className="text-gray-400 text-lg">
             We value you and your brand. Analysis of your goals is a primary
@@ -35,7 +30,6 @@ const AboutUs = () => {
           </p>
         </div>
 
-        {/* Contact Button */}
         <div className="mt-10 flex justify-end">
           <a
             href="#"

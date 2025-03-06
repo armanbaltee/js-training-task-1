@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'font-family';
+$b-p-c: #C9F31D;
+$b-t-c: black;
+.button{
+    font-family: $global-font-style;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    fill: $b-p-c;
+    color: $b-t-c;
+    background-color: #C9F31D;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: $a-c;
+}

@@ -15,7 +15,7 @@ const Hero = () => {
     >
       <Navbar />
       <div className="absolute inset-0 flex flex-col justify-center items-start pl-10">
-      <h1 className="text-white text-[50px] font-bold">
+      <h1 className="text-white h1 font-bold">
         WE'RE THE <span className="text-green-400">FURIOUS</span> DIGITAL
       </h1>
       <motion.h1

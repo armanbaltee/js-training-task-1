@@ -1,8 +1,7 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
 
-// Import your image here
-import developerImage from "../assets/developer.avif"; // Replace with the actual path
+import developerImage from "../assets/developer.avif";
 
 const services = [
   {
@@ -41,7 +40,7 @@ const ServicesSection = () => {
   return (
     <section className="bg-black text-white py-16 px-8">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        {/* Left Section - Image */}
+
         <div className="relative">
           <img
             src={developerImage}
@@ -50,13 +49,12 @@ const ServicesSection = () => {
           />
         </div>
 
-        {/* Right Section - Services List */}
         <div>
-          <h2 className="text-green-400 text-sm font-semibold uppercase mb-2">
+          <h2 className="text-green-400 h3 text-sm font-semibold uppercase mb-2">
             Services
           </h2>
-          <h1 className="text-4xl font-bold mb-4">Solutions We Provide</h1>
-          <p className="text-gray-400 mb-6">
+          <h1 className="h2 font-bold mb-4">Solutions We Provide</h1>
+          <p className="text-gray-400 p mb-6">
             You have come to the right place. PixarArts is a unified platform for all things Web & Mobile.
           </p>
 
@@ -64,15 +62,15 @@ const ServicesSection = () => {
             {services.map((service) => (
               <div
                 key={service.id}
-                className="flex items-start justify-between border-b border-gray-700 pb-4 hover:text-green-400 transition-all duration-300"
+                className="h3 flex items-start justify-between border-b border-gray-700 pb-4 hover:text-green-400 transition-all duration-300"
               >
                 <div className="flex space-x-4">
-                  <span className="text-gray-500 text-xl font-bold">
+                  <span className="text-gray-500 p font-bold">
                     {service.id}
                   </span>
                   <div>
-                    <h3 className="text-lg font-semibold">{service.title}</h3>
-                    <p className="text-gray-400 text-sm">{service.description}</p>
+                    <h3 className="h3 font-semibold">{service.title}</h3>
+                    <p className="text-gray-400 p">{service.description}</p>
                   </div>
                 </div>
                 <ArrowUpRight className="text-gray-500 hover:text-green-400 transition-all duration-300" />

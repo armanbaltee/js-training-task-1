@@ -1,6 +1,5 @@
 import React from "react";
 
-// Tech stack data
 const techStack = [
   "PHP",
   "JavaScript",
@@ -19,7 +18,6 @@ const FloatingTechStack = () => {
     <div className="bg-black py-10 overflow-hidden relative">
       <div className="absolute inset-0 bg-[url('/public/grid-pattern.png')] opacity-10"></div>
       <div className="max-w-7xl mx-auto">
-        {/* Floating animation wrapper */}
         <div className="flex space-x-6 overflow-hidden">
           <div className="flex space-x-6 animate-marquee">
             {techStack.map((tech, index) => (
@@ -43,8 +41,6 @@ const FloatingTechStack = () => {
           </div>
         </div>
       </div>
-
-      {/* Tailwind CSS for animation */}
       <style>
         {`
           @keyframes marquee {
