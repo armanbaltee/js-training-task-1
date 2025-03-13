@@ -1,0 +1,28 @@
+.cursor-background {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid green;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.cursor-shadow {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.8) 0%,
+    transparent
+  );
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  filter: blur(30px);
+  transition: all 0.1s ease-out;
+  z-index: 2;
+}

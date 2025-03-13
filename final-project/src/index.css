@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "New Tusker","Kanit", sans-serif, ;
+    src: url('./assets/fonts/TuskerGrotesk-3600Semibold.woff2');
+}

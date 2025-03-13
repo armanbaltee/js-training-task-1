@@ -1,0 +1,249 @@
+.footer-area {
+  display: flex;
+  justify-content: space-between;
+  font-family: Kanit, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  text-align: start;
+  align-self: auto;
+  padding: 20px;
+  padding-top: 50px;
+  color: white;
+}
+.logo-container {
+  align-self: auto;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Kanit, sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  position: relative;
+  text-align: start;
+}
+.logo {
+  height: 86.475px;
+}
+.logo > img {
+  padding-top: 15px;
+  height: 100px;
+  width: 250px;
+  padding: 10px 0 0 10px;
+}
+.social-media-icon {
+  box-sizing: border-box;
+  column-gap: 15px;
+  display: flex;
+  padding-left: 10px;
+  justify-content: start;
+  text-align: center;
+  height: 20px;
+}
+.social-media-icon > img {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+.content {
+  padding-right: 25%;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+#info {
+  font-size: 16x;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: start;
+}
+.action-link {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: start;
+}
+#list > li {
+  padding-bottom: 10px;
+}
+#list > li > h3 {
+  font-size: 17px;
+}
+.footer-content {
+  display: flex;
+}
+.country-location {
+  display: flex;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+  text-align: start;
+  width: 960px;
+}
+.box {
+  margin-left: 50px;
+  width: 300px;
+}
+.USA {
+  padding-bottom: 40px;
+}
+.USA > h2 {
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.USA > p {
+  line-height: 30px;
+  font-size: 15px;
+}
+#location {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.UK {
+  padding-bottom: 40px;
+}
+.UK > h2 {
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.UK > p {
+  line-height: 30px;
+  font-size: 15px;
+}
+.ASIA {
+  padding-bottom: 40px;
+}
+.ASIA > h2 {
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.ASIA > p {
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.UAE {
+  padding-bottom: 40px;
+}
+.UAE > h2 {
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.UAE > p {
+  line-height: 30px;
+  font-size: 15px;
+}
+.location {
+  display: flex;
+  padding-right: 40px;
+  /* gap: 10px; */
+}
+.footer-content {
+  padding-bottom: 90px;
+}
+
+.form-container {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+}
+
+.input-group {
+  position: relative;
+  margin-top: 20px;
+  background-color: white;
+}
+
+input {
+  width: 100%;
+  padding: 10px 5px;
+  border: none;
+  border-bottom: 1px solid black;
+  color: black;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
+}
+input:focus {
+  border-bottom: 2px solid black;
+}
+label {
+  background-color: transparent;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: gray;
+  transition: 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.static-label {
+  font-size: 14px;
+  color: gray;
+  display: block;
+  margin-top: 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+button {
+  width: 30%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0d65c2;
+}
+.location-img {
+  width: 300px;
+  height: 450px;
+  background-image: url("../images/location.png");
+}
+.white-line {
+  border-top: 1px solid white;
+}
+.copyright {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "Kanit", sans-serif;
+  font-size: 17px;
+}

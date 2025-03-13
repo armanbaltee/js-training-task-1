@@ -1,0 +1,77 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  background: transparent;
+  z-index: 1000;
+  width: 100%;
+}
+
+.top-bar {
+  background: #38215a;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+.contact-num {
+  background: transparent;
+}
+.contact-num a {
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  background: transparent;
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: transparent;
+}
+.logo {
+  background: transparent;
+}
+.logo img {
+  height: auto;
+  width: auto;
+  background: transparent;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background: transparent;
+}
+
+.menu-list {
+  display: flex;
+  gap: 20px;
+  background: transparent;
+}
+
+.menu-list li {
+  list-style: none;
+  font-family: "Kanit", sans-serif;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+  background: transparent;
+}
+
+.menu-list li:hover {
+  color: #c4a2fc;
+}
+
+.menu-button img {
+  height: 17px;
+  width: 17px;
+  cursor: pointer;
+}

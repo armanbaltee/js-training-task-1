@@ -1,0 +1,39 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  height: 150px;
+  width: 150px;
+  border: 1px solid white;
+  text-align: center;
+  background: transparent;
+  cursor: pointer;
+  gap: 10px;
+}
+p {
+  font-size: 18px;
+  line-height: 27px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  background: transparent;
+  padding-top: 60px;
+}
+img {
+  background: transparent;
+  height: 15px;
+  width: 16px;
+}
+.svg-img {
+  background: transparent;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 66px;
+}
+.button:hover {
+  background-color: rgb(177, 214, 39);
+  transition: ease-in;
+  transition-delay: 0.2s;
+}
